@@ -16,7 +16,7 @@ import java.text.NumberFormat;
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-    int quantity = 0;
+    int quantity = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,9 +85,9 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the + button is clicked.
      */
     public void increment(View view) {
-        if (quantity == 100) {
+        if (quantity == 15) {
             // Show an error message as a toast
-            Toast.makeText(this, "You cannot have more than 100 coffees", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "You cannot have more than 15 coffees", Toast.LENGTH_SHORT).show();
             // Exit this method early because there's nothing left to do
             return;
         }
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     public void decrement(View view) {
         if (quantity == 1) {
             // Show an error message as a toast
-            Toast.makeText(this, "You cannot have less than 1 coffees", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "You cannot have less than 1 coffee", Toast.LENGTH_SHORT).show();
             // Exit this method early because there's nothing left to do
             return;
         }
@@ -128,5 +128,3 @@ public class MainActivity extends AppCompatActivity {
     }
     */
 }
-
-

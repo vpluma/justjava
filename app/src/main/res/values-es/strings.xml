@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sólo Café</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="name">Escribe tu nombre aquí</string>
+    <string name="whipped_cream">Crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="caramel">Caramelo</string>
+    <string name="marshmallow">Malvaviscos</string>
+    <string name="quantity">Cantidad</string>
+    <string name="toppings">Ingredientes</string>
+    <string name="order">Orden</string>
+</resources>
+
