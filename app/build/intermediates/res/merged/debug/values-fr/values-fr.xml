@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-fr/dimens.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-fr/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-fr/values-fr.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-fr/values-fr.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -25,18 +25,18 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager avec"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-fr/strings.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Vinson Just Java</string>
     <string name="quantity">Quantity</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-fr/values-fr.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-fr/values-fr.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-fr/strings.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="toppings">Toppings</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-fr/styles.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-fr/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->

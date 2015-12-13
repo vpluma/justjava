@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-es/dimens.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-es/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -25,7 +25,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Ajustes</string>
     <string name="app_name">Sólo Café</string>
@@ -35,14 +35,14 @@
     <string name="name">Escribe tu nombre aquí</string>
     <string name="order">Orden</string>
     <string name="quantity">Cantidad</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="toppings">Ingredientes</string>
     <string name="whipped_cream">Crema batida</string>
-    <!-- From: file:/C:/Users/Student/AndroidStudioProjects/vinsonjustjava/app/src/main/res/values-es/styles.xml -->
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-es/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->

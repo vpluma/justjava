@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jar="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-1d0243fe1887035944c583fae6e10112ed7d52a3.jar" />
+        <dex dex="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-d42c85a5a3c3246c3113825d31ffa92660f8e9c0.jar" />
     </item>
     <item
-        jar="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\pre-dexed\debug\classes-aea8c9b059836b4eaa54861520c4a8e7ad9871d9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\pre-dexed\debug\classes-c9f5bd318505a5ff47434c88dbe5430825516191.jar" />
+        <dex dex="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\pre-dexed\debug\classes-c853a74cab7e5e77dd0449ae0ed69595a89c58dc.jar" />
     </item>
     <item
-        jar="C:\Users\Student\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jar="C:\Users\maddog\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\vinsonjustjava\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-da72836875a2e068d1fbb808f5aaa8894c4ce3f7.jar" />
+        <dex dex="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-97b83e4ed41803922835d045f2a3bf66360483b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\maddog\AndroidStudioProjects\VinsonJustJava\app\build\intermediates\pre-dexed\debug\classes-298ada687149574391ce587c41b7aca4a7da1966.jar" />
     </item>
 
 </items>
