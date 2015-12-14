@@ -1,10 +1,13 @@
-## REPO: vinsonjustjava<br>
-<b>Norwalk High School</b><br>
-<b>Project Lead The Way (PLTW)</b><br>
-<b>Pathway:</b> Computer Science<br>
+### Just Java - Coffee Ordering App Project<br>
+<b>Norwalk High School</b> - <b>Project Lead The Way (PLTW) Computer Science</b><br>
 <b>Class:</b> Computer Science Applications (CSA) - 2nd Year<br>
-<b>Curriculum:</b> Android Development, Java, XML, Material Design, Gradle, Google Apps Services, Git/GitHub, etc.
+<b>Curriculum:</b> Android App Development, Java, XML, Material Design, Google Apps Services, Git/GitHub, etc.<br>
+<b>Source:</b> Adapted from Udacity.com (Android Development for Beginners)<br>
 <br>
-#####Project: Udacity.com - Android Development for Beginners - Just Java App (Lessons 2A, 2B, 3A, 3B)
-
-![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_unfilled_version.png "Optional title")
+<b>Screenshots of App in English, Spanish, French and Korean</b><br><br>
+![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_unfilled_version.png "English Unfilled Version")
+![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_filled_version.png "English Filled Version")
+![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_email_version.png "English Email Version")
+![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/spanish_unfilled_version.png "Spanish Version")
+![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/french_unfilled_version.png "French Version")
+![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/korean_unfilled_version.png "Korean Version")
