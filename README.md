@@ -6,8 +6,16 @@
 <br>
 <b>Screenshots of App in English, Spanish, French and Korean</b><br><br>
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_unfilled_version.png "English Unfilled Version")
+<br><br.
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_filled_version.png "English Filled Version")
+<br><br>
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_email_version.png "English Email Version")
+<br><br>
+<b>Spanish Version</b> :es:<br><br>
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/spanish_unfilled_version.png "Spanish Version")
+<br><br>
+<b>French Version</b> :fr:<br><br>
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/french_unfilled_version.png "French Version")
+<br><br>
+<b>Korean Version</b> :kr:<br><br>
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/korean_unfilled_version.png "Korean Version")
