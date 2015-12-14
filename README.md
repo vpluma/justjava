@@ -1,11 +1,12 @@
 ### Just Java - Coffee Ordering App Project<br>
-<b>Norwalk High School</b> - <b>Project Lead The Way (PLTW) Computer Science</b><br>
+<b>Norwalk High School</b> :school: - <b>Project Lead The Way (PLTW) Computer Science</b><br>
 <b>Class:</b> Computer Science Applications (CSA) - 2nd Year (Sophomores)<br>
 <b>Curriculum:</b> Android App Development, Java, XML, Material Design, Google Apps Services, Git/GitHub, etc.<br>
 <b>Source:</b> Adapted from Udacity.com (Android Development for Beginners)<br>
-<b>Requirements:</b> custom launcher icon, custom app banner, custom app title, name edittext view, toppings textview, four (4) topping checkboxes, number of coffees textview, one (1) increment and one (1) decrement button, quantity number textview, credit card edittext view, expiration date edittext view, order button, two (2) international languages besides U.S. English, custom java classes and methods to handle the arithmetic, order summary, and the email intent. Lastly, completed apps must be presented and uploaded to GitHub.   
+<b>Requirements:</b> custom app icon, custom app banner, custom app title, name edittext view, toppings textview, four (4) topping checkboxes, number of coffees textview, one (1) increment and one (1) decrement button, quantity number textview, credit card edittext view, expiration date edittext view, order button, two (2) international languages besides U.S. English, custom java classes and methods to handle the arithmetic, order summary, and the email intent. Lastly, completed apps must be presented and uploaded to GitHub.   
 <br>
-<b>Screenshots of App in English, Spanish, French and Korean</b><br><br>
+<b>Screenshots of a sample Just Java App in English, Spanish, French and Korean</b><br><br>
+<b>English Version</b>:us:<br><br>
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_unfilled_version.png "English Unfilled Version")
 <br><br.
 ![Alt text](https://github.com/vpluma/vinsonjustjava/blob/master/screenshots/english_filled_version.png "English Filled Version")
