@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">만 커피</string>
+
+    <string name="action_settings">설정</string>
+    <string name="name">여기에 당신의 이름을 입력</string>
+    <string name="whipped_cream">휘핑 크림</string>
+    <string name="chocolate">초콜릿</string>
+    <string name="caramel">초콜릿</string>
+    <string name="marshmallow">마시멜로</string>
+    <string name="toppings">토핑</string>
+    <string name="quantity">커피 의 수량</string>
+    <string name="order">주문</string>
+    <string name="max">당신은 15 개 이상의 커피를 가질 수 없습니다</string>
+    <string name="min">사용자는 1 미만 의 커피를 가질 수 없다</string>
+    <string name="cardnumber">여기에 신용 카드 번호를 입력</string>
+    <string name="expiration">유통 기간</string>
+
+</resources>

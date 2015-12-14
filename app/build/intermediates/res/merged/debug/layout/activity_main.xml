@@ -15,7 +15,6 @@
         android:paddingTop="@dimen/activity_vertical_margin">
 
         <ImageView
-            android:id="@+id/photo_image_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -29,6 +28,7 @@
             android:layout_height="wrap_content"
             android:inputType="textCapWords"
             android:layout_marginBottom="16dp"
+            android:backgroundTint="#d26c1a"
             android:maxLength="30">
         </EditText>
 
@@ -47,16 +47,36 @@
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:textSize="16dp"
+            android:buttonTint="#d26c1a"
             android:text="@string/whipped_cream"/>
 
         <CheckBox
             android:id="@+id/chocolate_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"
+            android:buttonTint="#d26c1a"
+            android:text="@string/chocolate"/>
+
+        <CheckBox
+            android:id="@+id/marshmallow_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"
+            android:buttonTint="#d26c1a"
+            android:text="@string/marshmallow"/>
+
+        <CheckBox
+            android:id="@+id/caramel_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:paddingLeft="5dp"
             android:textSize="16dp"
-            android:text="@string/chocolate"/>
+            android:buttonTint="#d26c1a"
+            android:text="@string/caramel"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -119,6 +139,26 @@
             android:textColor="@android:color/black"
             android:textSize="16sp" />
          -->
+
+        <EditText
+            android:id="@+id/creditcard_field"
+            android:hint="@string/cardnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:backgroundTint="#d26c1a"
+            android:maxLength="30">
+        </EditText>
+
+        <EditText
+            android:id="@+id/expiration_field"
+            android:hint="@string/expiration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:backgroundTint="#d26c1a"
+            android:maxLength="30">
+        </EditText>
 
         <Button
             android:layout_width="wrap_content"

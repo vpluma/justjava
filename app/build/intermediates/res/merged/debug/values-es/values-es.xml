@@ -28,13 +28,17 @@
     <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Ajustes</string>
-    <string name="app_name">Sólo Café</string>
+    <string name="app_name"> Sólo Café</string>
     <string name="caramel">Caramelo</string>
+    <string name="cardnumber">Introduce el número de tarjeta de crédito aquí</string>
     <string name="chocolate">Chocolate</string>
+    <string name="expiration">Fecha de caducidad</string>
     <string name="marshmallow">Malvaviscos</string>
+    <string name="max">No se puede tener más de 15 cafés</string>
+    <string name="min">Usted no puede tener menos de 1 café</string>
     <string name="name">Escribe tu nombre aquí</string>
     <string name="order">Orden</string>
-    <string name="quantity">Cantidad</string>
+    <string name="quantity">Cantidad de cafés</string>
     <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>

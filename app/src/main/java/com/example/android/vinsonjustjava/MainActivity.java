@@ -30,12 +30,22 @@ public class MainActivity extends AppCompatActivity {
     public void submitOrder(View view) {
         EditText getName = (EditText)findViewById(R.id.name_field);
         String nameValue = getName.getText().toString();
+        EditText getCard = (EditText)findViewById(R.id.creditcard_field);
+        String cardValue = getCard.getText().toString();
+        EditText getExpiration = (EditText)findViewById(R.id.expiration_field);
+        String expirationValue = getExpiration.getText().toString();
         CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.whipped_cream_checkbox);
         boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
         CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.chocolate_checkbox);
         boolean hasChocolate = chocolateCheckBox.isChecked();
-        int price = calculatePrice(hasWhippedCream, hasChocolate);
-        String priceMessage = createOrderSummary(nameValue, price, hasWhippedCream,hasChocolate);
+        CheckBox caramelCheckBox = (CheckBox) findViewById(R.id.caramel_checkbox);
+        boolean hasCaramel = caramelCheckBox.isChecked();
+        CheckBox marshmallowCheckBox = (CheckBox) findViewById(R.id.marshmallow_checkbox);
+        boolean hasMarshmallow = marshmallowCheckBox.isChecked();
+        int price = calculatePrice(hasWhippedCream, hasChocolate, hasCaramel, hasMarshmallow);
+        String priceMessage = createOrderSummary(nameValue, price, hasWhippedCream,
+                hasChocolate, hasCaramel, hasMarshmallow, cardValue, expirationValue);
+        //Used displayMessage(priceMessage) before we switched to the email intent
         /*displayMessage(priceMessage);*/
         // Use an intent to launch an email app.
         // Send the order summary in the email body.
@@ -53,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return the price
      */
-    private int calculatePrice(boolean addWhippedCream, boolean addChocolate) {
+    private int calculatePrice(boolean addWhippedCream, boolean addChocolate, boolean addCaramel, boolean addMarshmallow) {
         int basePrice = 5;
         if (addWhippedCream){
             basePrice = basePrice + 1;
@@ -61,8 +71,13 @@ public class MainActivity extends AppCompatActivity {
         if (addChocolate){
             basePrice = basePrice + 2;
         }
+        if (addCaramel){
+            basePrice = basePrice + 1;
+        }
+        if (addMarshmallow){
+            basePrice = basePrice + 1;
+        }
         return quantity * basePrice;
-
     }
     /**
      * Create summary of the order.
@@ -72,13 +87,20 @@ public class MainActivity extends AppCompatActivity {
      * @param price of the order
      * @return text summary
      */
-    private String createOrderSummary(String userName, int price, boolean addWhippedCream, boolean addChocolate){
-        String priceMessage = "Name: " + userName;
-        priceMessage = priceMessage + "\nAdd Whipped Cream? " + addWhippedCream;
+    private String createOrderSummary(String userName, int price, boolean addWhippedCream,
+                                      boolean addChocolate, boolean addCaramel,
+                                      boolean addMarshmallow, String cardNumber, String expiration){
+        String priceMessage = "Customer: " + userName;
+        priceMessage = priceMessage + "\n_________________________";
+        priceMessage = priceMessage + "\n\nAdd Whipped Cream? " + addWhippedCream;
         priceMessage = priceMessage + "\nAdd Chocolate? " + addChocolate;
-        priceMessage = priceMessage + "\nQuantity: " + quantity;
+        priceMessage = priceMessage + "\nAdd Caramel? " + addCaramel;
+        priceMessage = priceMessage + "\nAdd Marshmallow? " + addMarshmallow;
+        priceMessage = priceMessage + "\n_________________________";
+        priceMessage = priceMessage + "\nNumber of coffees: " + quantity;
         priceMessage = priceMessage + "\nTotal: $" + price;
-        priceMessage = priceMessage + "\nThank you!";
+        priceMessage = priceMessage + "\n\nCredit Card: " + cardNumber;
+        priceMessage = priceMessage + "\nExp. Date: " + expiration;
         return priceMessage;
     }
     /**
@@ -87,7 +109,8 @@ public class MainActivity extends AppCompatActivity {
     public void increment(View view) {
         if (quantity == 15) {
             // Show an error message as a toast
-            Toast.makeText(this, "You cannot have more than 15 coffees", Toast.LENGTH_SHORT).show();
+            //R.string.max - is a reference to @string/max for localization
+            Toast.makeText(this, getResources().getString(R.string.max), Toast.LENGTH_SHORT).show();
             // Exit this method early because there's nothing left to do
             return;
         }
@@ -100,7 +123,8 @@ public class MainActivity extends AppCompatActivity {
     public void decrement(View view) {
         if (quantity == 1) {
             // Show an error message as a toast
-            Toast.makeText(this, "You cannot have less than 1 coffee", Toast.LENGTH_SHORT).show();
+            //R.string.min - is a reference to @string/min for localization
+            Toast.makeText(this, getResources().getString(R.string.min), Toast.LENGTH_SHORT).show();
             // Exit this method early because there's nothing left to do
             return;
         }

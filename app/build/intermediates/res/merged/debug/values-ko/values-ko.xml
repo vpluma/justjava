@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-ko/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
@@ -21,5 +25,35 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s와(과) 공유"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">설정</string>
+    <string name="app_name">만 커피</string>
+    <string name="caramel">초콜릿</string>
+    <string name="cardnumber">여기에 신용 카드 번호를 입력</string>
+    <string name="chocolate">초콜릿</string>
+    <string name="expiration">유통 기간</string>
+    <string name="marshmallow">마시멜로</string>
+    <string name="max">당신은 15 개 이상의 커피를 가질 수 없습니다</string>
+    <string name="min">사용자는 1 미만 의 커피를 가질 수 없다</string>
+    <string name="name">여기에 당신의 이름을 입력</string>
+    <string name="order">주문</string>
+    <string name="quantity">커피 의 수량</string>
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="toppings">토핑</string>
+    <string name="whipped_cream">휘핑 크림</string>
+    <!-- From: file:/C:/Users/maddog/AndroidStudioProjects/VinsonJustJava/app/src/main/res/values-ko/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#008</item>
+        <item name="android:textStyle">italic</item>
+    </style>
 </resources>
