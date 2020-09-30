@@ -1,4 +1,4 @@
-### Just Java - Coffee Ordering App Project<br>
+### Just Basic java - Coffee Ordering App Project for beginners<br>
 <b>Norwalk High School</b> :school: - <b>Project Lead The Way (PLTW) Computer Science</b><br>
 <b>Class:</b> Computer Science Applications (CSA) - 2nd Year (Sophomores)<br>
 <b>Curriculum:</b> Android App Development, Java, XML, Material Design, Google Apps Services, Git/GitHub, etc.<br>
